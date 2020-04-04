@@ -3,4 +3,9 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="GreatWave3">#F2E8D5</color>
+    <color name="GreatWave5">#F2B29B</color>
+    <color name="GreatWave4">#F2E0BD</color>
+    <color name="GreatWave2">#2B678C</color>
+    <color name="GreatWave1">#1E3E59</color>
 </resources>
