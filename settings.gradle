@@ -1,0 +1,2 @@
+rootProject.name='APierini_PNM_TP3'
+include ':app'
