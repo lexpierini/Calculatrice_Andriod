@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">APierini_PNM_TP3</string>
+    <string name="app_name" translatable="false">APierini_PNM_TP3</string>
+    <string name="Programmeur" translatable="false">Alex Forastier Pierini</string>
+    <string name="Ecole">École: Institut Grasset</string>
+    <string name="Programme">Programme: Techniques de l\'Informatique</string>
+    <string name="Cours">Cours: Programmation native mobile Android</string>
+    <string name="TP_Professor">TP3 – Remis à Pascal Guy</string>
+    <string name="Remis">Date de remise: 2020-05-04</string>
 </resources>

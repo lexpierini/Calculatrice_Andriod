@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Ecole">School: Institut Grasset</string>
+    <string name="Programme">Program: Information Technology</string>
+    <string name="Cours">Course: Native Android mobile programming</string>
+    <string name="TP_Professor">TP3 - Given to Pascal Guy</string>
+    <string name="Remis">Delivery date: 2020-05-04</string>
+</resources>
