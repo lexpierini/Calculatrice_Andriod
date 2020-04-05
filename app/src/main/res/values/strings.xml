@@ -23,4 +23,5 @@
     <string name="ChiffreZero">0</string>
     <string name="SymbolePoint">.</string>
     <string name="SymboleEgal">=</string>
+    <string name="ecran">ecran</string>
 </resources>
