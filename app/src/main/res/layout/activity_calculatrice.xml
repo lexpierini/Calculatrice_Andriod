@@ -30,9 +30,10 @@
                 android:layout_height="match_parent"
                 android:layout_margin="5dip"
                 android:background="@drawable/button_calculatrice"
-                android:text="@string/ecran"
+                android:fontFamily="@font/display_liquide"
+                android:text="ECRAN"
                 android:textColor="@color/GreatWave1"
-                android:textSize="24sp"
+                android:textSize="36sp"
                 android:textStyle="bold" />
         </LinearLayout>
 

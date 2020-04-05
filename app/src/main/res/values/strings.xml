@@ -6,22 +6,21 @@
     <string name="Cours">Cours: Programmation native mobile Android</string>
     <string name="TP_Professor">TP3 – Remis à Pascal Guy</string>
     <string name="Remis">Date de remise: 2020-05-04</string>
-    <string name="SymbolePlus">+</string>
-    <string name="SymboleSoustraction">-</string>
-    <string name="SymboleDivision">÷</string>
-    <string name="SymboleMultiplication">×</string>
-    <string name="Chiffre_7">7</string>
-    <string name="Chiffre_4">4</string>
-    <string name="Chiffre_8">8</string>
-    <string name="Chiffre_5">5</string>
-    <string name="Chiffre_9">9</string>
-    <string name="Chiffre_6">6</string>
-    <string name="SymboleEffacer">C</string>
-    <string name="Chiffre_1">1</string>
-    <string name="Chiffre_2">2</string>
-    <string name="Chiffre_3">3</string>
-    <string name="ChiffreZero">0</string>
-    <string name="SymbolePoint">.</string>
-    <string name="SymboleEgal">=</string>
-    <string name="ecran">ecran</string>
+    <string name="SymbolePlus" translatable="false">+</string>
+    <string name="SymboleSoustraction" translatable="false">-</string>
+    <string name="SymboleDivision" translatable="false">÷</string>
+    <string name="SymboleMultiplication" translatable="false">×</string>
+    <string name="Chiffre_7" translatable="false">7</string>
+    <string name="Chiffre_4" translatable="false">4</string>
+    <string name="Chiffre_8" translatable="false">8</string>
+    <string name="Chiffre_5" translatable="false">5</string>
+    <string name="Chiffre_9" translatable="false">9</string>
+    <string name="Chiffre_6" translatable="false">6</string>
+    <string name="SymboleEffacer" translatable="false">C</string>
+    <string name="Chiffre_1" translatable="false">1</string>
+    <string name="Chiffre_2" translatable="false">2</string>
+    <string name="Chiffre_3" translatable="false">3</string>
+    <string name="ChiffreZero" translatable="false">0</string>
+    <string name="SymbolePoint" translatable="false">.</string>
+    <string name="SymboleEgal" translatable="false">=</string>
 </resources>
