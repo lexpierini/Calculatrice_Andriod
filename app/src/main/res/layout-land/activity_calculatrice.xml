@@ -17,17 +17,19 @@
         android:layout_weight="1"
         android:orientation="vertical">
 
-        <Button
+        <TextView
             android:id="@+id/ecran"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dip"
-            android:background="@drawable/button_calculatrice"
+            android:background="?attr/colorButtonNormal"
             android:fontFamily="@font/display_liquide"
+            android:gravity="center"
             android:text="ECRAN"
             android:textColor="@color/GreatWave1"
             android:textSize="36sp"
             android:textStyle="bold" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -36,6 +38,18 @@
         android:layout_height="0dip"
         android:layout_weight="0.5"
         android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonEffacer"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1"
+            android:background="@drawable/button_calculatrice"
+            android:text="@string/SymboleEffacer"
+            android:textColor="@color/GreatWave1"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/buttonPlus"
@@ -49,17 +63,6 @@
             android:textSize="24sp"
             android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/buttonEffacer"
-            android:layout_width="0dip"
-            android:layout_height="match_parent"
-            android:layout_margin="5dip"
-            android:layout_weight="1"
-            android:background="@drawable/button_calculatrice"
-            android:text="@string/SymboleEffacer"
-            android:textColor="@color/GreatWave1"
-            android:textSize="24sp"
-            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -70,6 +73,18 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/buttonChiffre7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1"
+            android:background="@drawable/button_calculatrice"
+            android:text="@string/Chiffre_7"
+            android:textColor="@color/GreatWave1"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
             android:id="@+id/buttonChiffre8"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -77,18 +92,6 @@
             android:layout_weight="1"
             android:background="@drawable/button_calculatrice"
             android:text="@string/Chiffre_8"
-            android:textColor="@color/GreatWave1"
-            android:textSize="24sp"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/buttonSoustraction"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="5dip"
-            android:layout_weight="1"
-            android:background="@drawable/button_calculatrice"
-            android:text="@string/SymboleSoustraction"
             android:textColor="@color/GreatWave1"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -106,16 +109,17 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/buttonChiffre7"
+            android:id="@+id/buttonSoustraction"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dip"
             android:layout_weight="1"
             android:background="@drawable/button_calculatrice"
-            android:text="@string/Chiffre_7"
+            android:text="@string/SymboleSoustraction"
             android:textColor="@color/GreatWave1"
             android:textSize="24sp"
             android:textStyle="bold" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -124,6 +128,18 @@
         android:layout_height="0dip"
         android:layout_weight="0.5"
         android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonChiffre4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1"
+            android:background="@drawable/button_calculatrice"
+            android:text="@string/Chiffre_4"
+            android:textColor="@color/GreatWave1"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/buttonChiffre5"
@@ -145,18 +161,6 @@
             android:layout_weight="1"
             android:background="@drawable/button_calculatrice"
             android:text="@string/Chiffre_6"
-            android:textColor="@color/GreatWave1"
-            android:textSize="24sp"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/buttonChiffre4"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="5dip"
-            android:layout_weight="1"
-            android:background="@drawable/button_calculatrice"
-            android:text="@string/Chiffre_4"
             android:textColor="@color/GreatWave1"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -194,18 +198,6 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/buttonChiffre3"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="5dip"
-            android:layout_weight="1"
-            android:background="@drawable/button_calculatrice"
-            android:text="@string/Chiffre_3"
-            android:textColor="@color/GreatWave1"
-            android:textSize="24sp"
-            android:textStyle="bold" />
-
-        <Button
             android:id="@+id/buttonChiffre2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -213,6 +205,18 @@
             android:layout_weight="1"
             android:background="@drawable/button_calculatrice"
             android:text="@string/Chiffre_2"
+            android:textColor="@color/GreatWave1"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonChiffre3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1"
+            android:background="@drawable/button_calculatrice"
+            android:text="@string/Chiffre_3"
             android:textColor="@color/GreatWave1"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -238,18 +242,6 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/buttonEgal"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="5dip"
-            android:layout_weight="0.67"
-            android:background="@drawable/button_calculatrice"
-            android:text="@string/SymboleEgal"
-            android:textColor="@color/GreatWave1"
-            android:textSize="24sp"
-            android:textStyle="bold" />
-
-        <Button
             android:id="@+id/buttonChiffreZero"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -272,6 +264,19 @@
             android:textColor="@color/GreatWave1"
             android:textSize="24sp"
             android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonEgal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="0.67"
+            android:background="@drawable/button_calculatrice"
+            android:text="@string/SymboleEgal"
+            android:textColor="@color/GreatWave1"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
     </LinearLayout>
 
 </LinearLayout>

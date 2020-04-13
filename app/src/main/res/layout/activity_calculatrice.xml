@@ -24,13 +24,14 @@
             android:layout_weight="0.5"
             android:orientation="vertical">
 
-            <Button
+            <TextView
                 android:id="@+id/ecran"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dip"
-                android:background="@drawable/button_calculatrice"
+                android:background="?attr/colorButtonNormal"
                 android:fontFamily="@font/display_liquide"
+                android:gravity="center"
                 android:text="ECRAN"
                 android:textColor="@color/GreatWave1"
                 android:textSize="36sp"
