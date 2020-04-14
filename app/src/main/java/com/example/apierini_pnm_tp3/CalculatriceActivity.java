@@ -57,13 +57,13 @@ public class CalculatriceActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Logique pour effacer l'écran
                 if (button.get((Button) v).equals("c")) {
+                    resultat.setText("");
                     ilyaChiffe = false;
                     ilyaOperateur = false;
                     dernierChiffreEstOperateur = false;
                     ilyaPoint = false;
                     ilyaN1 = false;
                     resultatTemp = "";
-                    resultat.setText("");
                 }
                 // Logique d'utilisation du point
                 else if (button.get((Button) v).equals(".")) {
@@ -128,8 +128,8 @@ public class CalculatriceActivity extends AppCompatActivity {
                     n1EstResultat = false;
                     if (ilyaOperateur && dernierChiffreEstOperateur) {
                         operateur = button.get((Button) v);
-                        String tmp = resultat.getText().toString().substring(0, resultat.getText().toString().length() - 3);
-                        resultat.setText((tmp + " " + operateur + "\n"));
+                        String temp = resultat.getText().toString().substring(0, resultat.getText().toString().length() - 3);
+                        resultat.setText((temp + " " + operateur + " "));
                     }
                     else if (ilyaOperateur) {
                         if (resultatTemp.length() > 0) {
@@ -145,7 +145,10 @@ public class CalculatriceActivity extends AppCompatActivity {
                         }
                         calculer();
                         operateur = button.get((Button) v);
-                        resultat.setText(resultat.getText().toString() + " " + operateur + "\n");
+                        n1EstResultat = false;
+                        dernierChiffreEstOperateur = true;
+                        ilyaOperateur = true;
+                        resultat.setText(resultat.getText().toString() + " " + operateur + " ");
                     }
                     else {
                         operateur = button.get((Button) v);
@@ -166,7 +169,7 @@ public class CalculatriceActivity extends AppCompatActivity {
                         dernierChiffreEstOperateur = true;
                         ilyaPoint = false;
                         ilyaN1 = true;
-                        resultat.setText(resultat.getText().toString() + " " + operateur + "\n");
+                        resultat.setText(resultat.getText().toString() + " " + operateur + " ");
                     }
                     ilyaOperateur = true;
                 }
@@ -208,14 +211,14 @@ public class CalculatriceActivity extends AppCompatActivity {
         }
 
         resultat.setText(resultatTemp2);
-        n1 = resultat2;
-        ilyaChiffe = false;
-        ilyaOperateur = false;
-        operateur = "";
-        dernierChiffreEstOperateur = false;
-        ilyaPoint = false;
         ilyaN1 = true;
+        n1 = resultat2;
         n1EstResultat = true;
+        ilyaOperateur = false;
+        ilyaPoint = false;
+        ilyaChiffe = false;
+        dernierChiffreEstOperateur = false;
+        operateur = "";
         resultatTemp = "";
     }
 }

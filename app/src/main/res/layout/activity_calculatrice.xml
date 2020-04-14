@@ -32,7 +32,6 @@
                 android:background="?attr/colorButtonNormal"
                 android:fontFamily="@font/display_liquide"
                 android:gravity="center"
-                android:text="ECRAN"
                 android:textColor="@color/GreatWave1"
                 android:textSize="36sp"
                 android:textStyle="bold" />
